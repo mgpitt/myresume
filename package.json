@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watch-http-server -p 8081 && tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Raleway:400,700');
+
+body {
+    margin: 20px 0px 40px 0px;
+    font-family: 'Droid Sans Mono', monospace;
+}
+.initials {
+    border: 6px solid;
+    font-size: 5em;
+    width: 200px;
+    margin: 0 auto;
+}
+.me, .resume-title {
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+#resume-body {
+    margin: 10px 0px 0px 0px;
+}
+.resume-item {
+    margin-top: 30px;
+}
+
+.resume-item-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.resume-item-title {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+.resume-item-img {
+    height: 40px;
+    margin-right:10px;
+}
+.resume-item-content {
+    margin: 10px 0px 0px 0px;
+    font-size: 1em;
+}
+
+.resume-work-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.work-list-item {
+
+}
+.work-list-item-header {
+       display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.work-list-title {
+    width: 70%;
+        font-weight: 700;
+        font-size: 1.25em;
+}
+.work-list-date {
+    width: 30%;
+    text-align: right;
+}
+
+.work-list-contents {
+    margin-top: 15px;
+}
+
+.list-item-highlight {
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.highlight-list {
+    list-style: square;
+}
+
+.resume-skill-item {
+    font-weight: 700;
+}
+
+.resume-skill-category {
+    font-weight: 700;
+    font-size: 1.25em;
+    margin: 10px 0px 10px 0px;
+}
+.resume-skill-category::after {
+    content: ': ';
+}
+.resume-skill-item::after {
+    content: ', ';
+}
+.resume-skill-item:last-child:after {
+    content: '';
+}
+.resume-item-content {
+    padding: 0px 10px 0px 10px;
+}
+
+.education-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.education-list-item {
+    margin-bottom: 20px;
+}
+.education-list-item-heading {
+      display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.education-list-item-title {
+    width: 70%;
+}
+.education-list-item-dates {
+    width: 30%;
+    text-align: right;
+}
